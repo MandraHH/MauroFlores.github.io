@@ -106,15 +106,15 @@ button[type="submit"]:hover {
   background-color: #00E0D6;
 }
 
-#botonvolver {
-  float: right;
-  margin-right: 50px;
-  margin-bottom: 25px;
-  color: #08bdf5;
+#botonvolver{
+  color:#08bdf5;
   background-color: #0a5d8d;
-  border: none;
+  border: none; 
+  border-radius: 5px;
+  float: right;
+  margin-right: 50px ;
+  margin-bottom: 25px;
 }
-
 
 @media only screen and (max-width: 600px) {
   .container {
