@@ -1,0 +1,129 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #0a5d8d;
+}
+
+/* Estilos de navegación */
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  font-weight: bold;
+  padding: 15px;
+  color: #0a5d8d;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* Estilos de redes sociales */
+.divsocial {
+  display: inline-flex;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 24px;
+  color: #08bdf5;
+  transition: color 0.3s ease;
+}
+
+.social:hover {
+  color: #007bff;
+}
+
+/* Estilos del contenido principal */
+.text-center{
+  text-align: center;
+  color: #0a5d8d;
+  padding-top: 50px ;
+}  
+.gallery {
+display: flex;
+justify-content: space-between;
+width: 100%;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.gallery-item {
+flex: 0 0 30%;
+}
+
+.gallery-item img {
+width: 100%;
+}
+
+.pacerca {
+  text-align: center;
+  color: #0a5d8d;
+  padding: 50px;
+  margin: 20px;
+  font-style: italic;
+  font-size: larger;
+  border-radius: 50px;
+  border: #08bdf5 2px solid;
+}
+#botonvolver{
+  color:#08bdf5;
+  background-color: #0a5d8d;
+  border: none; 
+  border-radius: 5px;
+  float: right;
+  margin-right: 50px ;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 15px;
+    background-color: #7fe6f8;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    margin: 15px;
+    background-color: #60e9f3;
+    font-size: 14px;
+  }
+  .pacerca {  
+    border: #0a5f77 2px solid;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 10px;
+    background-color: #0dc0c0;
+    font-size: 12px;}
+  }
